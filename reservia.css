@@ -1,0 +1,25 @@
+﻿
+@font-face {
+	font-family: "Raleway";
+	src: url('Raleway-Regular.ttf');
+}
+@font-face {
+	font-family: "Raleway";
+	font-style: bold
+	src: url('Raleway-Bold".ttf');
+}
+@font-face {
+	font-family: "Raleway";
+	font-style: italic
+	src: url("Raleway-Italic.ttf");
+}
+h1 {
+	font-family: "Raleway";
+	font-style: bold
+}
+.nopuce {list-style-type: none;
+}
+#nav li {
+display : inline;
+}
+.glyphicon-adjust:before{content:"\e063"}
