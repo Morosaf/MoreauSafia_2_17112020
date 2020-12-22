@@ -497,10 +497,17 @@ footer {
 .cadrebody {
 	margin: 0%;
 }
-.navlogo:nth-child(1)
-{
-    order: 1;
+.navlogo:nth-child(1){
+	order: 1;
 	flex:2;
+	padding-left: 20px;
+}
+h1 {
+	padding-left: 20px;
+	padding-right: 50px;
+}
+.intro {
+	padding-left: 20px;
 }
 nav:nth-child(2)
 {
@@ -513,10 +520,12 @@ nav:nth-child(2)
 {
     order: 2;
 	vertical-align: top;
+	margin-right: 20px;
 }
 li{
 	width:50%;
-	padding: none;
+	padding-bottom: 20px; 
+}
 }
 .navlink:hover {
     color: #0065FC;
@@ -527,6 +536,9 @@ li{
     color: #0065FC;	
 	border-top: none;
 	border-bottom: 3px solid #0065FC;
+}
+.formulairerecherche {
+	padding: 20px;
 }
 #Rechercher{
 	width: 100%;
@@ -548,6 +560,12 @@ li{
 }
 .titrefiltres{
 	width: 100%;
+}
+.containerfiltres{
+	padding: 20px;
+}
+.inforecherche {
+	padding: 20px;
 }
 .container2 {
 	flex-direction: column;
@@ -605,6 +623,9 @@ li{
 	margin-left: 20px;
 	width: 100%;
 }
+.afficherplus {
+	margin-bottom: 0px;
+}
 .containeractivitéglobal {
 	flex-direction: column;
 	margin-left: 20px;
@@ -643,9 +664,6 @@ li{
 }
 .carrécativitéduo {
 	width: 100%;
-}
-.nomactivité {
-	
 }
 .lienactivité {
 	width: 100%;
