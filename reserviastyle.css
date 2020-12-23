@@ -160,12 +160,12 @@ nav:nth-child(2)
 .iconmap {
 	font-size:20px;
 }
-
 ::placeholder {
 	color: black;
 	font-weight: bold;
 	font-family:"Raleway";
 	margin-left: 16px;
+	opacity: 1;
 }
 .containerfiltres {
 	display: flex; 
