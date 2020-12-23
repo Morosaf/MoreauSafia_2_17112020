@@ -113,11 +113,12 @@ nav:nth-child(2)
 	vertical-align: top;
 	margin-right: 30px;
 }
-
 .formulairerecherche{
 	display: flex;	
 }
-
+.buttonmapbackground {
+	font-size: 20px;
+}
 #Rechercher {
 	width: 200px;
 	border-top: 1px solid #F2F2F2;
@@ -628,6 +629,7 @@ li{
 }
 .containeractivitéglobal {
 	flex-direction: column;
+	justify-content: space-between;
 	margin-left: 20px;
 	margin-right: 20px;
 }
