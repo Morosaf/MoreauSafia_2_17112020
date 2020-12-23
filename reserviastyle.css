@@ -79,7 +79,6 @@ li {
 	width: 100%;
 	padding: 50px 50px 50px 50px;
 }
-
 .nopuce {
 	list-style-type: none;
 	
@@ -94,7 +93,9 @@ li {
 	vertical-align: top;
 	display: flex;
 }
-
+.loginbleu {
+	color:#0065FC;
+}
 .navlogo:nth-child(1)
 {
     order: 1;
@@ -369,6 +370,9 @@ nav:nth-child(2)
 	margin-right:  15px;
 	margin-left: 0px;
 	display: block;
+}
+.iconepopu {
+	font-size: 24px;
 }
 .sectionactivités {
 	border-radius: 16px;	
