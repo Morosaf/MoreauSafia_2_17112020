@@ -526,7 +526,7 @@ li{
 	width:50%;
 	padding-bottom: 20px; 
 }
-}
+
 .navlink:hover {
     color: #0065FC;
 	border-top: none;
@@ -676,4 +676,5 @@ li{
 }
 .footercolonne {
 	padding-left: 20px;
+}
 }
