@@ -1,20 +1,16 @@
-﻿
-@import url("fontawesome.min.css");
-@font-face {
+﻿@font-face {
 	font-family: "Raleway";
 	src: url('Raleway-Regular.ttf');
 }
 @font-face {
 	font-family: "Raleway";
-	font-style: bold
 	src: url('Raleway-Bold".ttf');
 }
 @font-face {
 	font-family: "Raleway";
-	font-style: italic
+	font-style: italic;
 	src: url("Raleway-Italic.ttf");
 }
-
 body {
 	font-family: "Raleway"; 
 	margin: 0px;
@@ -87,7 +83,6 @@ li {
 	font-weight: bold;
 	background-color: #ffffff;
 	height: auto;
-	padding: auto;
 	margin-top: 0;
 	justify-content: flex-end;
 	vertical-align: top;
@@ -242,7 +237,6 @@ nav:nth-child(2)
 	justify-content: space-between;
 	flex-wrap: wrap-reverse;
 	background-color: #ffffff;
-	align-items: top;
 }
 .résultathébergements:nth-child(1){
 	flex:2;
@@ -321,7 +315,6 @@ nav:nth-child(2)
 .afficherplus {
 	display: inline-block;
 	justify-content: right;
-	flex-direction:end;
 	font-weight: bold;
 	align-self: end;
 	margin-left: 20px;
@@ -357,7 +350,6 @@ nav:nth-child(2)
 .figurepopulaires {
 	margin: 0;
 	display: flex;
-	flex-direction: inline;
 }
 .figcaptionpopu {
 	display: inline-block;
@@ -398,7 +390,6 @@ nav:nth-child(2)
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	text-align: baseline;
 }
 .élément1:nth-child(1) {
 
@@ -583,7 +574,6 @@ li{
 .container2 {
 	flex-direction: column;
 	margin: 0;
-	justify-content: none;
 }
 .résultathébergements:nth-child(1){
 	order:2;
@@ -618,7 +608,6 @@ li{
 }
 .notationétoilespopu {
 	display: flex;
-	flex-direction: end;
 }
 .carréhébergement{
 	margin: 10px 20px 10px 20px;
