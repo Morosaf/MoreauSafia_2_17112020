@@ -277,8 +277,6 @@ nav:nth-child(2)
 	height: 100%;
 	border-top-left-radius: 16px;
 	border-top-right-radius: 16px;
-	object-fit: cover;
-	position: absolute;
 }
 .carréhébergement{
 	background-color: #ffffff;
