@@ -1,15 +1,12 @@
-﻿@font-face {
+﻿@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@font-face {
 	font-family: "Raleway";
-	src: url('Raleway-Regular.ttf');
+	src: url("Raleway-Regular.ttf") format("truetype");
 }
 @font-face {
 	font-family: "Raleway";
-	src: url('Raleway-Bold".ttf');
-}
-@font-face {
-	font-family: "Raleway";
-	font-style: italic;
-	src: url("Raleway-Italic.ttf");
+	src: url("Raleway-Bold.ttf") format("truetype");
 }
 body {
 	font-family: "Raleway"; 
