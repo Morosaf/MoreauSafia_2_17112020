@@ -15,6 +15,10 @@ body {
 	font-family: "Raleway"; 
 	margin: 0px;
 }
+.widcontainer {
+	max-width: 1400px;
+	margin: 0 auto;
+}
 .cadrebody {
 	margin: 0 2.5% 2.5% 2.5% 
 
